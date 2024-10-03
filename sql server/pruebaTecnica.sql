@@ -1,6 +1,15 @@
 Create database pruebaTecnica;
 use pruebaTecnica;
 
+CREATE TABLE Producto (
+    IdProducto INT NOT NULL IDENTITY(1,1),  -- Clave primaria con autoincremento
+    Nombre VARCHAR(100) ,  -- Campo de nombre con collation específico
+    Precio DECIMAL(10, 2) NOT NULL,  -- Precio con 10 dígitos y 2 decimales
+    Stock INT,  -- Stock con valor entero
+    IdEstado SMALLINT,  -- Estado representado como pequeño entero
+    FechaRegistro DATETIME NOT NULL DEFAULT GETDATE(),  -- Fecha de registro con valor por defecto de la fecha actual
+    CONSTRAINT PK_Producto PRIMARY KEY (IdProducto)  -- Definir IdProducto como clave primaria
+);
 
 CREATE TABLE VENTA(
     IdVenta int PRIMARY KEY IDENTITY(1,1),
