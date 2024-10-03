@@ -1,74 +1,75 @@
 ﻿// Función para registrar la venta
 function registrarVenta() {
-        var detalle_venta = [];
-        var total = 0;
+    var detalle_venta = [];
+    var total = 0;
 
-        // Recorrer la tabla para recolectar los productos
-        $('#tbProducto > tbody > tr').each(function () {
-            var idProducto = parseInt($(this).find('td:eq(0)').text(), 10);
-            var precio = parseFloat($(this).find('td:eq(2)').text());
-            var cantidad = parseInt($(this).find('td:eq(3)').text(), 10);
-            var totalDetalle = parseFloat($(this).find('td:eq(4)').text());
+    // Recorrer la tabla para recolectar los productos
+    $('#tbProducto > tbody > tr').each(function () {
+        var idProducto = parseInt($(this).find('td:eq(0)').text(), 10);
+        var precio = parseFloat($(this).find('td:eq(2)').text());
+        var cantidad = parseInt($(this).find('td:eq(3)').text(), 10);
+        var totalDetalle = parseFloat($(this).find('td:eq(4)').text());
 
-            detalle_venta.push({
-                IdProducto: idProducto,
-                Precio: precio,
-                Cantidad: cantidad,
-                Total: totalDetalle,
-                IdEstado: 1 // Valor por defecto
-            });
-
-            total += totalDetalle;
+        detalle_venta.push({
+            IdProducto: idProducto,
+            Precio: precio,
+            Cantidad: cantidad,
+            Total: totalDetalle,
+            IdEstado: 1 // Valor por defecto de estado activo
         });
 
-        // Verificar si hay productos en la tabla antes de registrar la venta
-        if (detalle_venta.length === 0) {
-            alert("Debes agregar al menos un producto antes de registrar la venta.");
-            return;
-        }
+        total += totalDetalle;
+    });
 
-        // Crear el objeto venta
-        var venta = {
-            NumeroDocumento: $("#txtnumerodocumento").val(),
-            RazonSocial: $("#txtrazonsocial").val(),
-            Total: total,
-            IdEstado: 1
-        };
+    // Verificar si hay productos en la tabla antes de registrar la venta
+    if (detalle_venta.length === 0) {
+        alert("Debes agregar al menos un producto antes de registrar la venta.");
+        return;
+    }
 
-        // Crear el objeto con los detalles
-        var detalleVenta = { "Elementos": detalle_venta };
+    // Crear el objeto venta dinámicamente
+    var venta = {
+        IdVenta: 0,  // Este valor se puede asignar automáticamente en el backend
+        NumeroDocumento: $("#txtnumerodocumento").val(),
+        RazonSocial: $("#txtrazonsocial").val(),
+        Total: total,
+        IdEstado: 1,  // Estado activo
+        FechaRegistro: new Date().toISOString()  // Fecha actual en formato ISO
+    };
 
-        // Crear un objeto que contenga ambos objetos
-        var requestData = {
-            objVenta: venta,
-            objDetalleVenta: detalleVenta
-        };
-        debugger;
-        // Configuración de AJAX
-        $.ajax({
-            url: '/Venta/VentaInsertar',
-            method: "POST",
-            contentType: "application/json",
-            data: JSON.stringify(requestData), // Asegúrate de que el formato de datos sea correcto
-            success: function (response) {
-                console.log(response);
-                console.log(requestData);
-                if (response.respuesta) {
-                    alert("Venta Registrada");
+    // Crear el objeto con los detalles dinámicamente
+    var detalleVenta = { Elementos: detalle_venta };
 
-                    // Limpiar la tabla y los campos
-                    $("#tbProducto tbody").empty();
-                    $("#txtnumerodocumento").val("");
-                    $("#txtrazonsocial").val("");
+    // Crear un objeto que contenga tanto la venta como los detalles
+    var requestData = {
+        objVentas: venta,
+        objDetalleVentas: detalleVenta
+    };
 
-                    window.location.href = '/Venta/frmReporteVenta'; // Asegúrate de que esta URL sea correcta
-                } else {
-                    alert("Error al registrar la venta");
-                }
-            },
-            error: function () {
-                alert("Error en la solicitud");
+    // Configuración de AJAX para enviar la solicitud
+    $.ajax({
+        url: '/Venta/VentaInsertar',
+        type: "POST",
+        contentType: "application/json",
+        data: JSON.stringify(requestData),
+        success: function (response) {
+            console.log(response);
+            if (response) {
+                alert("Venta Registrada");
+
+                // Limpiar la tabla y los campos después de registrar la venta
+                $("#tbProducto tbody").empty();
+                $("#txtnumerodocumento").val("");
+                $("#txtrazonsocial").val("");
+
+                window.location.href = '/Venta/frmReporteVenta';  // Asegúrate de que esta URL sea correcta
+            } else {
+                alert("Error al registrar la venta");
             }
+        },
+        error: function () {
+            alert("Error en la solicitud");
+        }
     });
 }
 
