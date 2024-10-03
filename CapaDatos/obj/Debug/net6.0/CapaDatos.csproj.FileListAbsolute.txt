@@ -1,0 +1,16 @@
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.sourcelink.json
+C:\pruebaTecnica\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\pruebaTecnica\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\pruebaTecnica\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\pruebaTecnica\CapaDatos\bin\Debug\net6.0\CapaEntidad.dll
+C:\pruebaTecnica\CapaDatos\bin\Debug\net6.0\CapaEntidad.pdb
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.Up2Date
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\pruebaTecnica\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll

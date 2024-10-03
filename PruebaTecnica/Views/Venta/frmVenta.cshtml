@@ -1,0 +1,80 @@
+﻿@model List<CapaEntidad.clsProducto>
+<div class="card">
+    <div class="card-header">
+        VENTA
+    </div>
+    <div class="card-body">
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="mb-2">
+                    <label for="txtnumerodocumento" class="form-label">Número Documento</label>
+                    <input type="text" class="form-control form-control-sm" id="txtnumerodocumento" placeholder="Ingrese número de documento">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="mb-2">
+                    <label for="txtrazonsocial" class="form-label">Razón Social</label>
+                    <input type="text" class="form-control form-control-sm" id="txtrazonsocial" placeholder="Ingrese razón social">
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row align-items-end">
+            <div class="col-sm-3">
+                <div class="mb-2">
+                    <label for="cmbProducto" class="form-label">Producto</label>
+                    <select class="form-select form-select-sm" id="cmbProducto">
+                        <option value="">Seleccione un producto</option>
+                        @foreach (var producto in Model) // Asegúrate de que Model.Productos contenga la lista de productos
+                        {
+                            <option value="@producto.IdProducto">@producto.Nombre</option>
+                            // Ajusta según las propiedades de tu modelo de producto
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="mb-2">
+                    <label for="txtprecio" class="form-label">Precio</label>
+                    <input type="number" class="form-control form-control-sm" id="txtprecio" placeholder="Ingrese precio" readonly>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="mb-2">
+                    <label for="txtcantidad" class="form-label">Cantidad</label>
+                    <input type="number" class="form-control form-control-sm" id="txtcantidad" placeholder="Ingrese cantidad">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-success mb-2 btn-sm" id="btnAgregar">Agregar</button>
+                <button class="btn btn-primary mb-2 btn-sm" id="btnTerminar">Pagar</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-bordered table-sm" id="tbProducto">
+                    <thead>
+                        <tr class="table-dark">
+                            <th scope="col">Id</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Venta/Venta.js"></script>
+}

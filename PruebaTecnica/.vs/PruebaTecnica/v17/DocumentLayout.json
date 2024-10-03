@@ -3,29 +3,29 @@
   "WorkspaceRootPath": "C:\\pruebaTecnica\\PruebaTecnica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E2E1BE2-8E07-45FC-B9B8-F544CC416ADB}|..\\CapaNegocio\\CapaNegocio.csproj|c:\\pruebatecnica\\capanegocio\\clsgestionarweb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|c:\\pruebatecnica\\pruebatecnica\\wwwroot\\js\\venta\\venta.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|solutionrelative:wwwroot\\js\\venta\\venta.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|c:\\pruebatecnica\\pruebatecnica\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|solutionrelative:controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BE9B68F-2F2D-4AA6-BE64-379C4B286623}|..\\CapaDatos\\CapaDatos.csproj|c:\\pruebatecnica\\capadatos\\clsgestionarmaestrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|c:\\pruebatecnica\\pruebatecnica\\models\\clsproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|solutionrelative:models\\clsproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|c:\\pruebatecnica\\pruebatecnica\\views\\venta\\frmreporteventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|solutionrelative:views\\venta\\frmreporteventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9B68F-2F2D-4AA6-BE64-379C4B286623}|..\\CapaDatos\\CapaDatos.csproj|c:\\pruebatecnica\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C25B548E-0D0A-48F7-BFD1-5054195458B4}|..\\CapaEntidad\\CapaEntidad.csproj|c:\\pruebatecnica\\capaentidad\\clsdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|c:\\pruebatecnica\\pruebatecnica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C25B548E-0D0A-48F7-BFD1-5054195458B4}|..\\CapaEntidad\\CapaEntidad.csproj|c:\\pruebatecnica\\capaentidad\\clsventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|c:\\pruebatecnica\\pruebatecnica\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|solutionrelative:models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|c:\\pruebatecnica\\pruebatecnica\\models\\clsdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|solutionrelative:models\\clsdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|c:\\pruebatecnica\\pruebatecnica\\views\\venta\\frmventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681003F7-E8F1-47CB-AD1D-9DD32E3FFBD4}|PruebaTecnica.csproj|solutionrelative:views\\venta\\frmventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,97 +35,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\pruebaTecnica\\CapaDatos\\Conexion.cs",
-              "RelativeDocumentMoniker": "..\\CapaDatos\\Conexion.cs",
-              "ToolTip": "C:\\pruebaTecnica\\CapaDatos\\Conexion.cs",
-              "RelativeToolTip": "..\\CapaDatos\\Conexion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T20:40:52.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsGestionarWeb.cs",
-              "DocumentMoniker": "C:\\pruebaTecnica\\CapaNegocio\\clsGestionarWeb.cs",
-              "RelativeDocumentMoniker": "..\\CapaNegocio\\clsGestionarWeb.cs",
-              "ToolTip": "C:\\pruebaTecnica\\CapaNegocio\\clsGestionarWeb.cs",
-              "RelativeToolTip": "..\\CapaNegocio\\clsGestionarWeb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T20:34:49.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsGestionarMaestroDao.cs",
-              "DocumentMoniker": "C:\\pruebaTecnica\\CapaDatos\\clsGestionarMaestroDao.cs",
-              "RelativeDocumentMoniker": "..\\CapaDatos\\clsGestionarMaestroDao.cs",
-              "ToolTip": "C:\\pruebaTecnica\\CapaDatos\\clsGestionarMaestroDao.cs",
-              "RelativeToolTip": "..\\CapaDatos\\clsGestionarMaestroDao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T20:31:46.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\pruebaTecnica\\PruebaTecnica\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\pruebaTecnica\\PruebaTecnica\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-02T20:25:22.889Z",
+              "Title": "frmReporteVenta.cshtml",
+              "DocumentMoniker": "C:\\pruebaTecnica\\PruebaTecnica\\Views\\Venta\\frmReporteVenta.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venta\\frmReporteVenta.cshtml",
+              "ToolTip": "C:\\pruebaTecnica\\PruebaTecnica\\Views\\Venta\\frmReporteVenta.cshtml",
+              "RelativeToolTip": "Views\\Venta\\frmReporteVenta.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T10:21:07.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "clsProducto.cs",
-              "DocumentMoniker": "C:\\pruebaTecnica\\PruebaTecnica\\Models\\clsProducto.cs",
-              "RelativeDocumentMoniker": "Models\\clsProducto.cs",
-              "ToolTip": "C:\\pruebaTecnica\\PruebaTecnica\\Models\\clsProducto.cs",
-              "RelativeToolTip": "Models\\clsProducto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Title": "clsGestionarMaestroDao.cs",
+              "DocumentMoniker": "C:\\pruebaTecnica\\CapaDatos\\clsGestionarMaestroDao.cs",
+              "RelativeDocumentMoniker": "..\\CapaDatos\\clsGestionarMaestroDao.cs",
+              "ToolTip": "C:\\pruebaTecnica\\CapaDatos\\clsGestionarMaestroDao.cs",
+              "RelativeToolTip": "..\\CapaDatos\\clsGestionarMaestroDao.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAIAwwLUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T20:17:51.275Z",
+              "WhenOpened": "2024-10-03T09:57:09.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsDetalleVenta.cs",
+              "DocumentMoniker": "C:\\pruebaTecnica\\CapaEntidad\\clsDetalleVenta.cs",
+              "RelativeDocumentMoniker": "..\\CapaEntidad\\clsDetalleVenta.cs",
+              "ToolTip": "C:\\pruebaTecnica\\CapaEntidad\\clsDetalleVenta.cs",
+              "RelativeToolTip": "..\\CapaEntidad\\clsDetalleVenta.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAjwAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:42:41.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Venta.js",
+              "DocumentMoniker": "C:\\pruebaTecnica\\PruebaTecnica\\wwwroot\\js\\Venta\\Venta.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Venta\\Venta.js",
+              "ToolTip": "C:\\pruebaTecnica\\PruebaTecnica\\wwwroot\\js\\Venta\\Venta.js",
+              "RelativeToolTip": "wwwroot\\js\\Venta\\Venta.js",
+              "ViewState": "AQIAACkAAAAAAAAAAAAMwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-03T08:33:02.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\pruebaTecnica\\PruebaTecnica\\Models\\Venta.cs",
-              "RelativeDocumentMoniker": "Models\\Venta.cs",
-              "ToolTip": "C:\\pruebaTecnica\\PruebaTecnica\\Models\\Venta.cs",
-              "RelativeToolTip": "Models\\Venta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Title": "clsVenta.cs",
+              "DocumentMoniker": "C:\\pruebaTecnica\\CapaEntidad\\clsVenta.cs",
+              "RelativeDocumentMoniker": "..\\CapaEntidad\\clsVenta.cs",
+              "ToolTip": "C:\\pruebaTecnica\\CapaEntidad\\clsVenta.cs",
+              "RelativeToolTip": "..\\CapaEntidad\\clsVenta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T20:13:13.901Z",
+              "WhenOpened": "2024-10-03T07:23:02.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "clsDetalleVenta.cs",
-              "DocumentMoniker": "C:\\pruebaTecnica\\PruebaTecnica\\Models\\clsDetalleVenta.cs",
-              "RelativeDocumentMoniker": "Models\\clsDetalleVenta.cs",
-              "ToolTip": "C:\\pruebaTecnica\\PruebaTecnica\\Models\\clsDetalleVenta.cs",
-              "RelativeToolTip": "Models\\clsDetalleVenta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
+              "Title": "frmVenta.cshtml",
+              "DocumentMoniker": "C:\\pruebaTecnica\\PruebaTecnica\\Views\\Venta\\frmVenta.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venta\\frmVenta.cshtml",
+              "ToolTip": "C:\\pruebaTecnica\\PruebaTecnica\\Views\\Venta\\frmVenta.cshtml",
+              "RelativeToolTip": "Views\\Venta\\frmVenta.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAE4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T06:49:22.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "C:\\pruebaTecnica\\PruebaTecnica\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VentaController.cs",
+              "ToolTip": "C:\\pruebaTecnica\\PruebaTecnica\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "Controllers\\VentaController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAMwEIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T20:12:44.477Z",
+              "WhenOpened": "2024-10-03T06:21:58.146Z",
               "EditorCaption": ""
             }
           ]

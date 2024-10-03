@@ -1,0 +1,60 @@
+﻿@model List<CapaEntidad.clsProducto>
+
+@{
+    ViewData["Title"] = "Lista de Productos";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">Lista de Productos</h2>
+
+    <!-- Botón para agregar un nuevo producto -->
+    <div class="text-right mb-3">
+        <a href="@Url.Action("frmProductoInsertar", "Producto")" class="btn btn-primary">Agregar Producto</a>
+    </div>
+
+    <!-- Tabla con Bootstrap -->
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Stock</th>
+                <th scope="col">FechaRegistro</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                int i = 1;
+                foreach (var producto in Model)
+                {
+                    <tr>
+                        <th scope="row">@i</th>
+                        <td>@producto.Nombre</td>
+                        <td>@producto.Precio</td>
+                        <td>@producto.Stock</td>
+                        <td>@producto.FechaRegistro.ToString("dd/MM/yyyy HH:mm:ss")</td> <!-- Formato de fecha y hora -->
+                        <td>
+                            <!-- Botón para editar el producto -->
+                            <a href="@Url.Action("frmProductoEditar", "Producto", new { idProducto = producto.IdProducto })" class="btn btn-warning btn-sm">Actualizar</a>
+
+                            <form asp-action="EliminarConfirmado" method="post" style="display:inline;" onsubmit="return confirm('¿Estás seguro de eliminar este producto?');">
+                                <input type="hidden" name="id" value="@producto.IdProducto" />
+                                <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center">No se encontraron productos</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

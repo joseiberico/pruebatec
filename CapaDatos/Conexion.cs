@@ -1,6 +1,11 @@
 ﻿using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace PruebaTecnica.Datos
+namespace CapaDatos
 {
     public class Conexion
     {
@@ -8,11 +13,8 @@ namespace PruebaTecnica.Datos
 
         public Conexion()
         {
-
-
-            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
-
-            cadenaSQL = builder.GetSection("ConnectionStrings:CadenaSQL").Value;
+            // Inicializar la cadena de conexión directamente
+            cadenaSQL = "Data Source=(local); Initial Catalog=pruebaTecnica;Integrated Security=true";
         }
 
         public string getCadenaSQL()

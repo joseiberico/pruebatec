@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\pruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj": {
-                "projectPath": "C:\\pruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj"
+              "C:\\pruebaTecnica\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "C:\\pruebaTecnica\\CapaEntidad\\CapaEntidad.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
@@ -89,14 +93,14 @@
         }
       }
     },
-    "C:\\pruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj": {
+    "C:\\pruebaTecnica\\CapaEntidad\\CapaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\pruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj",
-        "projectName": "PruebaTecnica",
-        "projectPath": "C:\\pruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj",
+        "projectUniqueName": "C:\\pruebaTecnica\\CapaEntidad\\CapaEntidad.csproj",
+        "projectName": "CapaEntidad",
+        "projectPath": "C:\\pruebaTecnica\\CapaEntidad\\CapaEntidad.csproj",
         "packagesPath": "C:\\Users\\JOSE-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\pruebaTecnica\\PruebaTecnica\\obj\\",
+        "outputPath": "C:\\pruebaTecnica\\CapaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOSE-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -147,10 +151,6 @@
               "version": "[6.0.31, 6.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[6.0.31, 6.0.31]"
             },
@@ -160,9 +160,6 @@
             }
           ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

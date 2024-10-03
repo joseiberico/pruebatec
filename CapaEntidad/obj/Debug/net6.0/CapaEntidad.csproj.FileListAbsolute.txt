@@ -1,0 +1,12 @@
+C:\pruebaTecnica\CapaEntidad\bin\Debug\net6.0\CapaEntidad.deps.json
+C:\pruebaTecnica\CapaEntidad\bin\Debug\net6.0\CapaEntidad.dll
+C:\pruebaTecnica\CapaEntidad\bin\Debug\net6.0\CapaEntidad.pdb
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfo.cs
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\CapaEntidad.sourcelink.json
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\CapaEntidad.dll
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\refint\CapaEntidad.dll
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\CapaEntidad.pdb
+C:\pruebaTecnica\CapaEntidad\obj\Debug\net6.0\ref\CapaEntidad.dll
